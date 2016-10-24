@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project 5</title>
+	<link rel="stylesheet" href="style.css">
+	<script id="cardTemplate" type="x-handlebars-template">
+
+			<div class="cardInfo {{idName}}">
+				<h2>{{name}}</h2>
+				<p>{{description}}</p>
+				<p>Elixir Cost: {{elixirCost}}</p>
+				<p>Type: {{type}}</p>
+				<p>Rarity: {{rarity}}</p>
+			</div>
+
+	</script>
+</head>
+<body>
+	<header>
+		<h1>Clash Royale</h1>
+		<h1>Deck Builder</h1>
+	</header>
+
+	<main>
+		<!-- Displays the info of the selected cards -->
+		<section class="infoBox">
+
+		</section>
+		<section class="cards">
+			<!-- <img src="" alt=""> -->
+			
+			<!-- <article class="card">
+			</article> -->
+		</section>
+		
+
+		<!-- Displays the selected cards -->
+		<section class="selectedCards">
+			<ul class="deck">
+				
+			</ul>
+			
+			<div class="results">
+				<h3 class="elixirAvg"></h3>
+				<!-- <button class="reset"></button> -->
+			</div>
+		</section>
+
+	</main>
+	
+	<footer>
+		<p>Made by Myron Zhao</p>
+		<p>test</p>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
